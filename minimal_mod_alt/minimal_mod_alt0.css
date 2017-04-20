@@ -143,8 +143,8 @@ table tr.colhead_dark td{background:#555;border:0;}
 #forums h3:first-child{margin:0 0 15px;}
 #forums table.border .cat_list{width:80%;}
 #forums table.border .cat_list td{border:0!important;padding:0!important;width:20%;}
-.forum_unread .colhead_dark{background-color:#f3c8f6!important;}
-#forums table.forum_unread tr.colhead_dark td{background:#d744e0;}
+.forum_unread .colhead_dark{background-color:#e486ec!important;}
+#forums table.forum_unread tr.colhead_dark td{background:#e486ec;}
 .last_read{background:url(minimal_mod_new.png) no-repeat center center;height:12px;margin-left:10px;width:12px;}
 .last_read a{border:none;display:block;height:100%;width:100%;}
 .last_read a:hover{border:none;}
