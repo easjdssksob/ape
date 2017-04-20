@@ -1,16 +1,16 @@
 /* MINIMAL MOD ALTERNATIVE */ /* VERSION-4.0.0 */ /* MODIFIED-2017.02.01 */
 
 /* GLOBAL */
-body{background:url(minimal_mod_header.png) repeat-x, url(minimal_mod_pattern.png) fixed 50% 0 repeat;background-color:#262626;color:#F1F1F1;font-family:'Trebuchet MS',sans-serif;font-size:8pt;margin:0;}
+body{background:url(minimal_mod_header.png) repeat-x, url(minimal_mod_pattern.png) fixed 50% 0 repeat;background-color:#262626;color:#F1F1F1;font-family:'Arial',sans-serif;font-size:8pt;margin:0;}
 h1,h2,h3,h4{margin-top:0;padding:0;}
-a,a:visited,a:active{color:#5AF;text-decoration:none;}
+a,a:visited,a:active{color:#e486ec;text-decoration:none;}
 a:hover{color:#49D;text-decoration:underline;}
 a img{border-style:none;position:relative;top:1px;}
-input,select,textarea{background:#262626;border:1px solid #9C9C9C;color:#F1F1F1;font-family:Trebuchet MS,sans-serif;font-size:11px;padding:3px;}
+input,select,textarea{background:#262626;border:1px solid #9C9C9C;color:#F1F1F1;font-family:Arial,sans-serif;font-size:11px;padding:3px;}
 input:focus,textarea:focus{border:1px solid #CCC;}
 blockquote{background:transparent url(minimal_mod_blockquote.png) repeat;border:1px #000 dotted;color:#f1f1f1!important;margin:10px;padding:5px;}
 input[type=submit]:focus,input[type=button]:focus{background:#333;}
-input[type=submit]:active,input[type=button]:active{background:#5AF;}
+input[type=submit]:active,input[type=button]:active{background:#e486ec;}
 select{padding:1px;}
 textarea#quickpost{margin:0;padding:0;}
 textarea.wbbarea{margin:3px auto 6px!important;width:100%;}
@@ -36,12 +36,12 @@ textarea.wbbarea{margin:3px auto 6px!important;width:100%;}
 #menu ul li:hover{background:#353535;}
 #menu ul li:hover a{color:#FFF;}
 /* ACTIVE MENU ITEM */
-#index #nav_index a,#torrents #nav_torrents a,#collage #nav_collages a,#requests #nav_requests a,#forums #nav_forums a,#top10 #nav_top10 a,#rules #nav_rules a,#kb #nav_wiki a,#wiki #nav_wiki a,#staff #nav_staff a{background:#5af;color:#000;}
+#index #nav_index a,#torrents #nav_torrents a,#collage #nav_collages a,#requests #nav_requests a,#forums #nav_forums a,#top10 #nav_top10 a,#rules #nav_rules a,#kb #nav_wiki a,#wiki #nav_wiki a,#staff #nav_staff a{background:#e486ec;color:#000;}
 /* SPRITE */
 #userinfo_username li:first-child,#userinfo_major li:first-child,#userinfo_minor li:first-child,#userinfo_username li:first-child:hover,#userinfo_major li:first-child:hover,#userinfo_minor li:first-child:hover,#userinfo_username li:first-child a,#userinfo_username li:first-child a:hover,#userinfo_minor li:first-child a,#userinfo_minor li:first-child a:hover,#userinfo_major li:first-child a,#userinfo_major li:first-child a:hover,.show_torrents,.hide_torrents{background-image:url(minimal_mod_sprite.png);}
 /* USERINFO START */
 #userinfo{z-index:3;}
-#userinfo *{font-family:Trebuchet MS, Helvetica, sans-serif!important;font-size:11px;text-decoration:none;text-transform:lowercase;}
+#userinfo *{font-family:Arial, Helvetica, sans-serif!important;font-size:11px;text-decoration:none;text-transform:lowercase;}
 #userinfo ul{list-style:none;margin:12px 0 0;padding:0;position:absolute;z-index:2;}
 #userinfo ul li{z-index:2;}
 #userinfo ul li a{position:relative;z-index:2;}
@@ -96,7 +96,7 @@ textarea.wbbarea{margin:3px auto 6px!important;width:100%;}
 #searchbars input{background-color:#000;border:1px solid #333;color:#777;margin:0;outline:none;padding:5px;width:136px;}
 #searchbars ul li ul{background:#262626;border:1px solid #757575;display:block;left:0;margin-top:12px;overflow:hidden;position:absolute;top:1em;white-space:nowrap;z-index:1000;}
 #searchbars ul li ul li{display:block;font-weight:700;margin:0;padding:3px;width:142px;}
-#searchbars ul li ul li.highlight{background-color:#5AF;background-position:0 -771px;background-repeat:repeat-x;color:#222;font-weight:700;}
+#searchbars ul li ul li.highlight{background-color:#e486ec;background-position:0 -771px;background-repeat:repeat-x;color:#222;font-weight:700;}
 #content .box,#torrents #content .box:last-child,#forums #content .box:last-child,#inbox #content .box:last-child,#artist #content div.center,#collage #content .sidebar div[class="box pad"]{border:1px #757575 dotted;}
 #inbox #content .pad{border:1px #757575 dotted!important;}
 #user #content .pad{border-top:1px #757575 solid!important;}
@@ -129,7 +129,7 @@ table.collage td{background-color:transparent!important;}
 #inbox .box .body{border:1px solid #353535;padding:10px;}
 #inbox form textarea{margin:0 0 10px;}
 #inbox table a{color:#AAA;}
-#inbox .unreadpm a{color:#5AF;font-weight:700;}
+#inbox .unreadpm a{color:#e486ec;font-weight:700;}
 #requests #content div.center,#top10 #content div.center{background:#2A2A2A;}
 #top10 td.center{width:30px;}
 #staff .thin .box{padding-top:3px!important;}
@@ -297,7 +297,7 @@ table.recent tr,#artist #content .box .body,#user #content .pad,#index #content 
 #messageform input,#quickreplybuttons{margin-top:5px;}
 #log .center,#requests table.border{margin-bottom:8px;}
 #forums #content a:hover,#taglist a:hover,.tags a:hover,.torrent_table tr.group_torrent a:hover,#torrent_table tr.group_torrent a:hover{color:#007dc6;}
-#forums #content .forum_post a,#forums #content .linkbox a,#forums #content h2 a,#forums #content .forum_post .colhead_dark a,#forums #content #quickpostform a,#forums #content .forum_post a:hover,#forums #content .linkbox a:hover,#forums #content h2 a:hover,#forums #content .forum_post .colhead_dark a:hover,#forums #content #quickpostform a{color:#5AF;}
+#forums #content .forum_post a,#forums #content .linkbox a,#forums #content h2 a,#forums #content .forum_post .colhead_dark a,#forums #content #quickpostform a,#forums #content .forum_post a:hover,#forums #content .linkbox a:hover,#forums #content h2 a:hover,#forums #content .forum_post .colhead_dark a:hover,#forums #content #quickpostform a{color:#e486ec;}
 #comments .avatar,#torrents .filter_torrents .inputtext{width:150px;}
 #userhistory .forum_post tr.colhead_dark,#discog_table .center{background-image:none;}
 .torrent a,.group,#torrent_table tr.colhead td,.lightbox .colhead span{font-weight:700;}
